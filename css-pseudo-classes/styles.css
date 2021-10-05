@@ -3,11 +3,11 @@
   color: white;
 }
 
-th {
+thead {
   background-color: black;
   color: white;
 }
 
-tr:nth-child(odd) {
+tbody tr:nth-child(odd) {
   background-color: #f2f2f2;
 }
