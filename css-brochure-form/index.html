@@ -9,31 +9,34 @@
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
   <h2>LEARN MORE</h2>
-  <form>
-  <div>
-    <label for="company-name">COMPANY NAME</label><br>
-    <input type="text" id="company-name" name="company-name" placeholder="sally@company.co">
+<form>
+  <div class="item">
+    <label for="email">COMPANY EMAIL</label><br>
+    <input class="box-item" type="text" id="email" name="email" placeholder="sally@company.co"><br>
   </div>
-  <div>
+  <div class="item">
     <label for="name">NAME</label><br>
-    <input type="text" id="name" name="name" placeholder="Sally Smith">
+    <input class="box-item" type="text" id="name" name="name" placeholder="Sally Smith"><br>
   </div>
-  <div>
+  <div class="item">
     <label for="hiring">WHERE ARE YOU HIRING?</label><br>
-    <input type="text" id="hiring" name="hiring" placeholder="City, Country">
+    <input class="box-item" type="text" id="hiring" name="hiring" placeholder="City, Country">
   </div>
-    <label for="how-many">HOW MANY ENGINEERS ARE YOU HIRING IN THE NEXT 6 MONTHS?</label><br>
-  <fieldest>
-    <select name="how-many" id="how-many">
+  <div class="item">
+    <label for="hires">HOW MANY ENGINEERS ARE YOU HIRING IN THE NEXT 6 MONTHS?</label><br>
+    <select class="box-item" name="hires" id="hires">
       <option value="1-2">1-2 Engineers</option>
       <option value="3-4">3-4 Engineers</option>
-      <option value="5-6">5-6 Engineers</option>
+      <option value="5-6">5-6  Engineers</option>
     </select>
-  </fieldest>
+  </div>
   <div>
-    <button>SUBMIT</button>
+  <div class="item">
+    <button class="submit">SUBMIT</button>
+  </div>
   </div>
 </form>
 </body>

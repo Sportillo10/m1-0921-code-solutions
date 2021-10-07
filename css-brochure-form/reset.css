@@ -1,9 +1,7 @@
 * {
   box-sizing: border-box;
-  border-radius: 5px;
-  justify-content: space-between;
 }
 
 body {
-  margin: 25;
+  margin: 0;
 }
