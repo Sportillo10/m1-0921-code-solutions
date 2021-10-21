@@ -1,0 +1,44 @@
+* {
+  font-family: 'Barlow', sans-serif;
+  justify-content: center;
+  background-color: #f7f8fa;
+}
+
+h2 {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  object-fit: contain;
+}
+
+.img-container {
+  padding: 0 20px 0 20px;
+}
+
+.img-container img {
+  height: auto;
+  width: 200px;
+}
+
+.icon {
+  display: flex;
+}
+
+.icon-container {
+  text-align: center;
+}
+
+.icon-container img {
+  height: 50px;
+  width: 50px;
+}
+
+.text h3 {
+  padding-bottom: 10px;
+}
+
+.text p {
+  font-size: 12px;
+}
